@@ -1,5 +1,5 @@
 {
-  "name": "@shlack/types",
+  "name": "@shlack/utils",
   "version": "0.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,14 @@
     "clean": "rimraf dist *.tsbuildinfo",
     "build": "tsc -b ."
   },
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "react": "^17.0.1"
+  },
   "devDependencies": {
-    "typescript": "^4.0.3"
+    "@types/date-fns": "^2.6.0",
+    "@types/jest": "^26.0.19",
+    "@types/react": "^17.0.0",
+    "jest": "^26.6.3"
   }
 }

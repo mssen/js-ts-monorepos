@@ -6,6 +6,13 @@
 
 # Internal Dependencies
 
+```bash
+yarn lerna add @shlack/types --scope "@shlack/ui"
+
+# Might need to manually link as well
+yarn lerna link
+```
+
 ---
 
 <p align='right'>

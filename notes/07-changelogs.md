@@ -6,6 +6,12 @@
 
 # Changelogs
 
+To generate CHANGELOG and push version tag.
+
+```bash
+yarn lerna version --conventional-commits
+```
+
 ---
 
 <p align='right'>

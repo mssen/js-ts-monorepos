@@ -6,6 +6,14 @@
 
 # Publishing and Versioning
 
+```bash
+volta install verdaccio
+
+verdaccio
+```
+
+To blow away any packages in Verdaccio: `rm -rf ~/.local/share/verdaccio`
+
 ---
 
 <p align='right'>
